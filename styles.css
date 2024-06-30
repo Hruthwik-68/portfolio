@@ -195,6 +195,13 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
 }
+.about #particles-jss {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 .home::before {
   content: "";
   position: absolute;
@@ -351,7 +358,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: #0c0c0c;;
 }
 .about .row {
   display: flex;
@@ -363,6 +370,12 @@ header .navbar ul li a:hover {
 .about .row .image {
   text-align: center;
   flex: 1 1 35rem;
+}
+.about .heading{
+  color: #ce4b1c;
+}
+.about .heading span{
+  color: #4793c6;
 }
 .about .row .image img {
   margin: 4rem;
@@ -382,12 +395,12 @@ header .navbar ul li a:hover {
   padding: 3rem;
 }
 .about .row .content h3 {
-  color: rgb(27, 27, 27);
+  color: #fcfcfc;
   font-size: 2.5rem;
 }
 .about .row .content .tag {
   font-size: 1.4rem;
-  color: #020133;
+  color: #3432bd;
   font-weight: 600;
   margin-top: 1rem;
 }
@@ -397,6 +410,7 @@ header .navbar ul li a:hover {
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
+  color: #fff;
 }
 .about .row .content .box-container {
   display: flex;
@@ -467,7 +481,8 @@ header .navbar ul li a:hover {
 
 .skills {
   min-height: 10vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #1a1a1a, #2c2c2c);
+
   padding: 2rem 0;
 }
 
@@ -653,7 +668,7 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: linear-gradient(to bottom, #000000, #333333);
 }
 .work h2 {
   color: #fff;
