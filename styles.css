@@ -195,13 +195,7 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
 }
-.about #particles-jss {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
+
 .home::before {
   content: "";
   position: absolute;
@@ -352,6 +346,7 @@ header .navbar ul li a:hover {
   .home .content p span {
     font-size: 2.2rem;
   }
+  
 }
 /* hero media queries ends*/
 /* hero section end */
